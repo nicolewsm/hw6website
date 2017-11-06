@@ -39,23 +39,26 @@ li a:hover {
 }
 
 section {
-  width: 75% ;
+  width: 70% ;
 }
 
 
 
-img.welcome {
+img.horizontal {
   height: 300px;
-  width: auto ;
-}
-
-img.verticalcontent {
-  height: 250px;
   width: auto ;
   border: 2px;
   border-style: solid;
   border-color: grey;
 
+}
+
+img.vertical {
+  height: 250px;
+  width: auto ;
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
   float: right;
 }
 
@@ -66,27 +69,30 @@ figure.content {
 table {
   border-width: 0px 0px 5px 0px;
   border-style: solid;
-  border-color: darkred;
+  border-color: #7F3F00;
   background: #eee;
   padding: 0px;
   border-spacing: 0px;
   margin: 0px 50px;
+  table-layout: fixed;
+  width: 450px;
 }
 
 th {
   color: white;
-  background-color: darkred;
+  background-color: #7F3F00;
 }
 
 th, td {
   text-align: left;
-  padding: 3px 15px;
+  padding: 3px 12px;
+
 }
 
-
-th, td {
-  text-align: left;
-  padding: 3px 15px;
+td {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: darkgray;
 }
 
 td.trcell, td.hates {
